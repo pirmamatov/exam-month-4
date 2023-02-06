@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container logo-wrapper">
+            <img src="./images/pokemon_logo 1.png" alt="pokemon-logo">
+            <img class="likes-modal" src="./images/heart.svg" alt="likes">
+        </div>
+    </header>
+    <main>
+        <section class="navigator">
+            <div class="container">
+                <form class="form">
+                    <select id="select">
+                        <option value="Fire">Fire</option>
+                        <option value="Grass">Grass</option>
+                        <option value="Water">Water</option>
+                        <option value="Normal">Normal</option>
+                        <option value="Bug">Bug</option>
+                    </select>
+                    <label>
+                        <input id="search" type="text" name="search" placeholder="search...">
+                    </label>
+                    <select id="letter-order">
+                        <option value="sortA">Aa-Zz</option>
+                        <option value="sortZ">Zz-Aa</option>
+                    </select>
+                    <button id="filter-btn">Button</button>
+                </form>
+            </div>
+        </section>
+        <section class="body-part">
+            <div class="container">
+                <div class="Pokemons">
+                   
+                </div>
+            </div>
+        </section>
+        <section class="modal">
+            <div class="liked-pokimons"></div>
+            <img class="arrow-img" src="./images/arrow-ios-left.svg" alt="arrow-ios-left">
+        </section>
+    </main>
+    <script src="./js/script.js" type="module"></script>
+</body>
+
+</html>
